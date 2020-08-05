@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Coding Trivia</string>
+    <string name="pilih_tingkat_kesulitan">Pilih tingkat kesulitan</string>
+    <string name="topik_algoritma_dasar">Topik : Algoritma Dasar</string>
+    <string name="topik_pemrograman_c">Topik : Pemrograman C++</string>
+    <string name="topik_pemrograman_web">Topik : Pemrograman Web</string>
+    <string name="pilih_topik">Pilih Topik</string>
+    <string name="algoritma_dasar">Algoritma Dasar</string>
+    <string name="pemrograman_c">Pemrograman C++</string>
+    <string name="pemrograman_web">Pemrograman Web</string>
+    <string name="highscore_999">Highscore : 999</string>
+    <string name="return_s">Kembali</string>
+    <string name="_0">0</string>
+    <string name="skor_anda">Skor Anda</string>
+    <string name="skor">Skor</string>
+    <string name="nyawa">Nyawa</string>
+    <string name="algoritma_dasar_beginner">Algoritma Dasar - Beginner</string>
+    <string name="algoritma_dasar_intermediate">Algoritma Dasar - Intermediate</string>
+    <string name="algoritma_dasar_expert">Algoritma Dasar - Expert</string>
+    <string name="pemrograman_c_intermediate">Pemrograman C++ - Intermediate</string>
+    <string name="pemrograman_c_beginner">Pemrograman C++ - Beginner</string>
+    <string name="pemrograman_c_expert">Pemrograman C++ - Expert</string>
+    <string name="pemrograman_web_expert">Pemrograman Web - Expert</string>
+    <string name="pemrograman_web_beginner">Pemrograman Web - Beginner</string>
+    <string name="pemrograman_web_intermediate">Pemrograman Web - Intermediate</string>
+    <string name="mulai">Mulai</string>
+    <string name="info">Info</string>
+    <string name="skor_tertinggi">Skor Tertinggi</string>
+    <string name="programmer">Programmer</string>
+    <string name="me">Me</string>
+    <string name="design">Design</string>
+    <string name="concept">Concept</string>
+    <string name="thanks_to">Thanks to</string>
+    <string name="beginner">Beginner</string>
+    <string name="intermediate">Intermediate</string>
+    <string name="expert">Expert</string>
+</resources>

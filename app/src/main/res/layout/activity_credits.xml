@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rickjo.trivia2.credits"
+    android:orientation="vertical"
+    android:background="@color/colorDark"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:text="Info"
+        android:textSize="40sp"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp"
+        android:gravity="center_horizontal"
+        android:text="@string/programmer"
+        android:textSize="20sp"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/programmer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="230dp"
+        android:gravity="center_horizontal"
+        android:text="@string/me"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="280dp"
+        android:gravity="center_horizontal"
+        android:text="@string/design"
+        android:textSize="20sp"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold|italic"
+        />
+
+    <TextView
+        android:id="@+id/design"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="310dp"
+        android:gravity="center_horizontal"
+        android:text="@string/me"
+        android:textSize="20sp"
+        android:textColor="@color/colorWhite"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="360dp"
+        android:gravity="center_horizontal"
+        android:text="@string/concept"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/colorWhite"
+        />
+
+    <TextView
+        android:id="@+id/concept"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="390dp"
+        android:gravity="center_horizontal"
+        android:text="@string/me"
+        android:textSize="20sp"
+        android:textColor="@color/colorWhite"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="440dp"
+        android:gravity="center_horizontal"
+        android:text="@string/thanks_to"
+        android:textSize="20sp"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:id="@+id/tq1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="470dp"
+        android:gravity="center_horizontal"
+        android:text="@string/me"
+        android:textSize="20sp"
+        android:textColor="@color/colorWhite"
+        />
+
+    <TextView
+        android:id="@+id/tq2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="500dp"
+        android:gravity="center_horizontal"
+        android:text="@string/me"
+        android:textSize="20sp"
+        android:textColor="@color/colorWhite"
+        />
+
+    <TextView
+        android:id="@+id/tq3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="530dp"
+        android:gravity="center_horizontal"
+        android:text="@string/me"
+        android:textSize="20sp"
+        android:textColor="@color/colorWhite"
+        />
+
+
+</RelativeLayout>

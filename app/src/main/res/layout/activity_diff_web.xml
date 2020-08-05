@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".diffWeb"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pilih_tingkat_kesulitan"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        />
+
+    <Button
+        android:id="@+id/easy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/beginner"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:background="#089f32"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:onClick="startEasy"/>
+
+    <Button
+        android:id="@+id/normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/intermediate"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:background="#0091EA"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:onClick="startNormal"/>
+
+    <Button
+        android:id="@+id/hard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/expert"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:background="#FF5733"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:onClick="startHard"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/topik_pemrograman_web"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        />
+
+</LinearLayout>
